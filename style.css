@@ -1,0 +1,54 @@
+/*div {
+	border: 1px solid black;
+}*/
+
+div#search {
+	padding: 100px;
+	border: 1px solid black;
+}
+
+div#sidebar {
+	height: 1500px;
+}
+
+div#radioboxes {
+	margin-top: 17px;
+	padding: 10px;
+}
+
+img.packshot {
+	width: 40px;
+	height: 55px; 
+}
+
+img.gallery {
+	width: 150px;
+	height: 200px;
+	margin: 10px;
+}
+
+body {
+	font-size: 12px;
+}
+
+div#pagination {
+	margin-top: 30px;
+}
+
+div#arrivals {
+	margin-top: 30px;
+}
+
+div#popular {
+	margin-top: 30px;
+}
+
+img#popular {
+	width: 80%;
+	margin-top: 10px;
+}
+
+div#categories {
+	margin-top: 30px;
+
+}

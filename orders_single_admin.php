@@ -112,7 +112,6 @@
 								<a class="btn btn-danger btn-sm" href="#">Delete</a>
 							</td>
 						</tr>
-						
 					</tbody>
 				</table>
 			</div>

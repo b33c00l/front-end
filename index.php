@@ -199,7 +199,7 @@
 								<th scope="col">EAN:</th>
 								<th scope="col">Name:</th>
 								<th scope="col">Release Date:</th>
-								<th scope="col">Pulisher:</th>
+								<th scope="col">Publisher:</th>
 								<th scope="col">Stock:</th>
 								<th scope="col">Price:</th>
 								<th scope="col">Amount</th>

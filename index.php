@@ -3,7 +3,7 @@
 <head>
 	<title>Index</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href= "style.css">
+	<link rel="stylesheet" href= "css/style.css">
 </head>
 <body>
 	<div class="container">
@@ -47,22 +47,18 @@
 				<div id="popular" class="row">
 					<h4>Most Popular</h4>
 					<figure>
-						<img id="popular" src="fc4.jpg"class="img-thumbnail">
+						<img id="popular" src="images/fc4.jpg"class="img-thumbnail">
+						<figcaption class="text-center">Image</figcaption>
+					</figure><figure>
+						<img id="popular" src="images/fc4.jpg"class="img-thumbnail">
+						<figcaption class="text-center">Image</figcaption>
+					</figure><figure>
+						<img id="popular" src="images/fc4.jpg"class="img-thumbnail">
+						<figcaption class="text-center">Image</figcaption>
+					</figure><figure>
+						<img id="popular" src="images/fc4.jpg"class="img-thumbnail">
 						<figcaption class="text-center">Image</figcaption>
 					</figure>
-					<figure>
-						<img id="popular" src="fc4.jpg"class="img-thumbnail">
-						<figcaption class="text-center">Image</figcaption>
-					</figure>
-					<figure>
-						<img id="popular" src="fc4.jpg"class="img-thumbnail">
-						<figcaption class="text-center">Image</figcaption>
-					</figure>
-					<figure>
-						<img id="popular" src="fc4.jpg"class="img-thumbnail">
-						<figcaption class="text-center">Image</figcaption>
-					</figure>
-					
 				</div>
 			</div>
 
@@ -122,10 +118,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -139,10 +134,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -156,10 +150,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -173,10 +166,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -190,10 +182,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -207,10 +198,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -224,10 +214,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -241,10 +230,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -258,10 +246,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -275,10 +262,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -292,10 +278,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -309,10 +294,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -326,10 +310,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -343,10 +326,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -360,10 +342,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -377,10 +358,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -394,10 +374,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -411,10 +390,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -428,10 +406,9 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
-							</tr>
-							<tr>
+							</tr>							<tr>
 								<td class="align-middle">3307212280150</td>
 								<td class="align-middle">XONE Far Cry 4</td>
 								<td class="align-middle">2017-12-05</td>
@@ -445,7 +422,7 @@
 									<div class="btn btn-info">To cart</div>
 								</td>
 								<td class="align-middle">
-									<img class="packshot" src="fc4.jpg">
+									<img class="packshot" src="images/fc4.jpg">
 								</td>
 							</tr>
 						</tbody>
@@ -475,23 +452,19 @@
 					</div>
 					<div class="row justify-content-center col-12">
 						<figure>
-							<img class="gallery" src="fc4.jpg">
+							<img class="gallery" src="images/fc4.jpg">
 							<figcaption>Far cry 4</figcaption>
-						</figure>
-						<figure>
-							<img class="gallery" src="fc4.jpg">
+						</figure><figure>
+							<img class="gallery" src="images/fc4.jpg">
 							<figcaption>Far cry 4</figcaption>
-						</figure>
-						<figure>
-							<img class="gallery" src="fc4.jpg">
+						</figure><figure>
+							<img class="gallery" src="images/fc4.jpg">
 							<figcaption>Far cry 4</figcaption>
-						</figure>
-						<figure>
-							<img class="gallery" src="fc4.jpg">
+						</figure><figure>
+							<img class="gallery" src="images/fc4.jpg">
 							<figcaption>Far cry 4</figcaption>
-						</figure>
-						<figure>
-							<img class="gallery" src="fc4.jpg">
+						</figure><figure>
+							<img class="gallery" src="images/fc4.jpg">
 							<figcaption>Far cry 4</figcaption>
 						</figure>
 					</div>

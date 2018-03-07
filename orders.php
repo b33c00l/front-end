@@ -12,7 +12,7 @@
 
 		<div class="row">
 			<div class="btn-group">
-				<button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<button type="button" class="btn btn-dark dropdown-toggle m-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Action
 				</button>
 				<div class="dropdown-menu">
@@ -24,7 +24,7 @@
 				</div>
 			</div>
 			<div class="btn-group">
-				<button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<button type="button" class="btn btn-dark dropdown-toggle m-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Action
 				</button>
 				<div class="dropdown-menu">
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			<div class="btn-group">
-				<button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<button type="button" class="btn btn-dark dropdown-toggle m-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Action
 				</button>
 				<div class="dropdown-menu">
@@ -48,7 +48,7 @@
 				</div>
 			</div>
 
-			<button class="btn btn-danger">Filter</button>
+			<button class="btn btn-danger m-5">Filter</button>
 
 
 
@@ -58,7 +58,7 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<table class="table">
+				<table class="table table-sm">
 					<thead class="thead-light">
 						<tr>
 							<th scope="col">Order ID:</th>
@@ -78,7 +78,7 @@
 							<td class="align-middle">Confirmed</td>
 							<td class="align-middle">Pre-order</td>
 							<td class="align-middle">
-								<img src="images/pdf.png">
+								<img class="figure-img" src="images/pdf.png">
 							</td>
 							<td class="align-middle">
 								<div class="btn btn-dark">Edit</div>
@@ -133,6 +133,8 @@
 		</div>
 
 	</div>
+
+	<!-- Export all to Excel -->
 
 	<div class="row">
 		<div class="col-8"></div>

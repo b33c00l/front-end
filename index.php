@@ -192,8 +192,8 @@
 
 				<!-- Product table -->
 
-				<div class="col-md-12">
-					<table class="table">
+				<div class="col-md-12 table-responsive">
+					<table class="table table-sm">
 						<thead class="thead-light">
 							<tr>
 								<th scope="col">EAN:</th>

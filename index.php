@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>Index</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" href= "css/style.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -26,6 +27,12 @@
 			<div class="logo">
 				<img src="images/logo.png">
 			</div>
+			<div class="cart-menu">
+				<span class="cart-menu-icon">
+					<i class="fas fa-cart-arrow-down"></i>
+				</span>
+				<span class="cart-menu-price">€200</span>
+			</div>
 			<div class="nav d-flex justify-content-center">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,12 +55,6 @@
 						</ul>
 					</div>
 				</nav>
-			</div>
-			<div class="cart-menu">
-				<span class="cart-menu-icon">
-					<i class="fas fa-cart-arrow-down"></i>
-				</span>
-				<span class="cart-menu-price">€200</span>
 			</div>
 		</div>
 		<!-- Slider -->
@@ -559,60 +560,60 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-1 karuseles-arrow-containeris d-flex justify-content-center">
+			<div class="col-sm-2 karuseles-arrow-containeris d-flex justify-content-center">
 				<div class="karuseles-arrow prev"><i class="fas fa-caret-left"></i>
 				</div>
 			</div>
-				<div class="col-sm-8">
-					<div class="karusele">
-						<div class="karuseles-img">
-							<img class="gallery" src="images/fc4.jpg">
-							<h5>Half Life</h5>
-						</div>
-						<div class="karuseles-img">
-							<img class="gallery" src="images/fc4.jpg">
-							<h5>Half Life</h5>
-						</div>
-						<div class="karuseles-img">
-							<img class="gallery" src="images/fc4.jpg">
-							<h5>Half Life</h5>
-						</div>
-						<div class="karuseles-img">
-							<img class="gallery" src="images/fc4.jpg">
-							<h5>Half Life</h5>
-						</div>
-						<div class="karuseles-img">
-							<img class="gallery" src="images/fc4.jpg">
-							<h5>Half Life</h5>
-						</div>
-						<div class="karuseles-img">
-							<img class="gallery" src="images/fc4.jpg">
-							<h5>Half Life</h5>
-						</div>
-						<div class="karuseles-img">
-							<img class="gallery" src="images/fc4.jpg">
-							<h5>Half Life</h5>
-						</div>
+			<div class="col-sm-8">
+				<div class="karusele">
+					<div class="karuseles-img">
+						<img class="gallery" src="images/fc4.jpg">
+						<h5>Half Life</h5>
+					</div>
+					<div class="karuseles-img">
+						<img class="gallery" src="images/fc4.jpg">
+						<h5>Half Life</h5>
+					</div>
+					<div class="karuseles-img">
+						<img class="gallery" src="images/fc4.jpg">
+						<h5>Half Life</h5>
+					</div>
+					<div class="karuseles-img">
+						<img class="gallery" src="images/fc4.jpg">
+						<h5>Half Life</h5>
+					</div>
+					<div class="karuseles-img">
+						<img class="gallery" src="images/fc4.jpg">
+						<h5>Half Life</h5>
+					</div>
+					<div class="karuseles-img">
+						<img class="gallery" src="images/fc4.jpg">
+						<h5>Half Life</h5>
+					</div>
+					<div class="karuseles-img">
+						<img class="gallery" src="images/fc4.jpg">
+						<h5>Half Life</h5>
 					</div>
 				</div>
-				<div class="col-sm-1 karuseles-arrow-containeris d-flex justify-content-center">
-					<div class="karuseles-arrow next"><i class="fas fa-caret-right"></i></div>
-				</div>
+			</div>
+			<div class="col-sm-2 karuseles-arrow-containeris d-flex justify-content-center">
+				<div class="karuseles-arrow next"><i class="fas fa-caret-right"></i></div>
 			</div>
 		</div>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-12 mt-5 text-center footer">
-			<p>Copyright © GameStar 2018</p>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 mt-5 text-center footer">
+				<p>Copyright © GameStar 2018</p>
+			</div>
 		</div>
 	</div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/slick/slick.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </body>
 </html>

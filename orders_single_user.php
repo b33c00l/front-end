@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Orders User</title>
-		
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 		<link rel="stylesheet" href= "css/style.css">
 	</head>
@@ -15,94 +15,167 @@
 					<table class="table table-sm">
 						<thead class="thead-light">
 							<tr>
-								<th>EAN:</th>
-								<th>Platform:</th>
-								<th>Name:</th>
-								<th>Release Date:</th>
-								<th>Publisher:</th>
-								<th>Price:</th>
-								<th>Amount</th>
-								<th></th>
-								<th></th>
+								<th scope="col">EAN:</th>
+								<th scope="col">Platform:</th>
+								<th scope="col">Name:</th>
+								<th scope="col">Release date:</th>
+								<th scope="col">Publisher:</th>
+								<th scope="col">Price:</th>
+								<th scope="col">Amount</th>
+								<th scope="col"></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE</td>
-								<td class="align-middle">PC Warhammer Online II: Super trooper game</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">9,65</td>
-								<td class="align-middle">
-									<input type="number" placeholder="30" name="amount">
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
 								</td>
 								<td class="align-middle">
-									<a class="btn btn-dark btn-sm" href="#">Update</a>
-									<a class="btn btn-danger btn-sm" href="#">Delete</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE</td>
-								<td class="align-middle">PC Warhammer Online II: Super trooper game</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">9,65</td>
-								<td class="align-middle">
-									<input type="number" placeholder="30" name="amount">
-								</td>
-								<td class="align-middle">
-									<a class="btn btn-dark btn-sm" href="#">Update</a>
-									<a class="btn btn-danger btn-sm" href="#">Delete</a>
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
 							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE</td>
-								<td class="align-middle">PC Warhammer Online II: Super trooper game</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">9,65</td>
-								<td class="align-middle">
-									<input type="number" placeholder="30" name="amount">
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
 								</td>
 								<td class="align-middle">
-									<a class="btn btn-dark btn-sm" href="#">Update</a>
-									<a class="btn btn-danger btn-sm" href="#">Delete</a>
-								</td>
-							</tr>
-							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE</td>
-								<td class="align-middle">PC Warhammer Online II: Super trooper game</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">9,65</td>
-								<td class="align-middle">
-									<input type="number" placeholder="30" name="amount">
-								</td>
-								<td class="align-middle">
-									<a class="btn btn-dark btn-sm" href="#">Update</a>
-									<a class="btn btn-danger btn-sm" href="#">Delete</a>
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
 							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE</td>
-								<td class="align-middle">PC Warhammer Online II: Super trooper game</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">9,65</td>
-								<td class="align-middle">
-									<input type="number" placeholder="30" name="amount">
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
 								</td>
 								<td class="align-middle">
-									<a class="btn btn-dark btn-sm" href="#">Update</a>
-									<a class="btn btn-danger btn-sm" href="#">Delete</a>
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
-							
+							<tr>
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
+								</td>
+								<td class="align-middle">
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
+								</td>
+							</tr>
+							<tr>
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
+								</td>
+								<td class="align-middle">
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
+								</td>
+							</tr>
+							<tr>
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
+								</td>
+								<td class="align-middle">
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
+								</td>
+							</tr>
+							<tr>
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
+								</td>
+								<td class="align-middle">
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
+								</td>
+							</tr>
+							<tr>
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
+								</td>
+								<td class="align-middle">
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
+								</td>
+							</tr>
+							<tr>
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
+								</td>
+								<td class="align-middle">
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
+								</td>
+							</tr>
+							<tr>
+								<td data-label="EAN:" class="align-middle">3307212280150</td>
+								<td data-label="Platform:" class="align-middle">XONE</td>
+								<td data-label="Name:" class="align-middle">PC Warhammer Online II: Super trooper game</td>
+								<td data-label="Release date:" class="align-middle">2017-12-05</td>
+								<td data-label="Publisher:" class="align-middle">Ubisoft</td>
+								<td data-label="Price:" class="align-middle">9,65</td>
+								<td data-label="Amount:" class="align-middle">
+									<input class="input" type="number" placeholder="30" name="amount">
+								</td>
+								<td class="align-middle">
+									<div class="btn btn-dark btn-sm">Update</div>
+									<div class="btn btn-danger btn-sm">Delete</div>
+								</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>

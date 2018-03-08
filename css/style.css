@@ -446,5 +446,7 @@ input.input {
 	width: 50px;
 }
 
-
->>>>>>> 9862aadb3d6d2d5df1612def66467c7f6fd18f41
+img.map {
+	width: 100%;
+	margin-top: 30px;
+}

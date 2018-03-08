@@ -2,11 +2,12 @@
 <html>
 <head>
 	<title>Index</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" href= "css/style.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 </head>
 <body>
@@ -14,42 +15,50 @@
 		<!-- Top Bar -->
 		<div class="row">
 			<div class="top-bar">
-
 				<ul>
-					<li><i class="fas fa-phone-volume"></i>  +370 644 54348</li>
-					<li><i class="far fa-envelope"></i>  info@gamestar.eu</li>
+					<li><i class="fas fa-phone-volume"></i>  <a href="#">+370 644 54348</a></li>
+					<li><i class="far fa-envelope"></i>  <a href="#">info@gamestar.eu</a></li>
 				</ul>
-
 			</div>
 		</div>
-
 		<!-- Header -->
-
 		<div class="row">
-			<div class="col-12">
-				<div class="logo">
-					<img src="images/logo.png">
-				</div>
-				<div class="nav">
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Order</a></li>
-						<li><a href="#">Profile</a></li>
-						<li><a href="#">Contacts</a></li>
-					</ul>
-				</div>
-				<div class="cart-menu">
+			<div class="logo">
+				<img src="images/logo.png">
+			</div>
+			<div class="nav d-flex justify-content-center">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Order</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Profile</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="cart-menu">
+				<span class="cart-menu-icon">
 					<i class="fas fa-cart-arrow-down"></i>
-				</div>
+				</span>
+				<span class="cart-menu-price">€200</span>
 			</div>
 		</div>
-
 		<!-- Slider -->
-
 		<div id="search" class="row justify-content-center">
-
 			<div class="slider">
-
 				<div>
 					<img src="images/slides/1.jpg" />
 				</div>
@@ -66,20 +75,16 @@
 			<div class="slider-arrows-left left"><i class="fas fa-arrow-circle-left"></i></div>
 			<div class="slider-arrows-right right"><i class="fas fa-arrow-circle-right right"></i></div>
 		</div>
-
 		<!-- Search -->
-
 		<div class="row">
 			<div class="col-12 d-flex justify-content-center pt-3 pb-3 search-bar-back">
-				  <form class="form-inline">
-				    <input class="form-control mr-sm-2 search-inputas" type="search" placeholder="Search" aria-label="Search">
-				    <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
-				  </form>
+				<form class="form-inline">
+					<input class="form-control mr-sm-2 search-inputas" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+				</form>
 			</div>
 		</div>
-
 		<!-- Sidebar -->
-
 		<div class="row">
 			<div id="sidebar" class="col-2">
 				<div id="categories" class="row">
@@ -102,7 +107,6 @@
 						</ul>
 					</div>
 				</div>
-
 				<!-- Most popular -->
 				<hr>
 				<div id="popular" class="row">
@@ -165,9 +169,7 @@
 					</div>
 				</div>
 			</div>
-
 			<!-- Table filters -->
-
 			<div class="col-10">
 				<div id="radioboxes" class="row justify-content-around">
 					<div class="form-check">
@@ -189,9 +191,7 @@
 						</label>
 					</div>
 				</div>
-
 				<!-- Product table -->
-
 				<div class="col-md-12 table-responsive">
 					<table class="table table-sm">
 						<thead class="thead-light">
@@ -549,7 +549,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- New arrivals -->
 		<hr>
 		<div class="row">
@@ -557,49 +556,50 @@
 				<h4>New arrivals</h4>
 			</div>
 		</div>
+	</div>
+	<div class="container">
 		<div class="row">
-			<div class="col-1 karuseles-arrow-containeris d-flex justify-content-center">
-				<div class="karuseles-arrow prev"><i class="fas fa-caret-left"></i></i></div>
-			</div>
-			<div class="col-10">
-				<div class="karusele">
-					<div class="karuseles-img">
-						<img class="gallery" src="images/fc4.jpg">
-						<h5>Half Life</h5>
-					</div>
-					<div class="karuseles-img">
-						<img class="gallery" src="images/fc4.jpg">
-						<h5>Half Life</h5>
-					</div>
-					<div class="karuseles-img">
-						<img class="gallery" src="images/fc4.jpg">
-						<h5>Half Life</h5>
-					</div>
-					<div class="karuseles-img">
-						<img class="gallery" src="images/fc4.jpg">
-						<h5>Half Life</h5>
-					</div>
-					<div class="karuseles-img">
-						<img class="gallery" src="images/fc4.jpg">
-						<h5>Half Life</h5>
-					</div>
-					<div class="karuseles-img">
-						<img class="gallery" src="images/fc4.jpg">
-						<h5>Half Life</h5>
-					</div>
-					<div class="karuseles-img">
-						<img class="gallery" src="images/fc4.jpg">
-						<h5>Half Life</h5>
-					</div>
+			<div class="col-sm-1 karuseles-arrow-containeris d-flex justify-content-center">
+				<div class="karuseles-arrow prev"><i class="fas fa-caret-left"></i>
 				</div>
 			</div>
-			<div class="col-1 karuseles-arrow-containeris d-flex justify-content-center">
-				<div class="karuseles-arrow next"><i class="fas fa-caret-right"></i></div>
+				<div class="col-sm-8">
+					<div class="karusele">
+						<div class="karuseles-img">
+							<img class="gallery" src="images/fc4.jpg">
+							<h5>Half Life</h5>
+						</div>
+						<div class="karuseles-img">
+							<img class="gallery" src="images/fc4.jpg">
+							<h5>Half Life</h5>
+						</div>
+						<div class="karuseles-img">
+							<img class="gallery" src="images/fc4.jpg">
+							<h5>Half Life</h5>
+						</div>
+						<div class="karuseles-img">
+							<img class="gallery" src="images/fc4.jpg">
+							<h5>Half Life</h5>
+						</div>
+						<div class="karuseles-img">
+							<img class="gallery" src="images/fc4.jpg">
+							<h5>Half Life</h5>
+						</div>
+						<div class="karuseles-img">
+							<img class="gallery" src="images/fc4.jpg">
+							<h5>Half Life</h5>
+						</div>
+						<div class="karuseles-img">
+							<img class="gallery" src="images/fc4.jpg">
+							<h5>Half Life</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-1 karuseles-arrow-containeris d-flex justify-content-center">
+					<div class="karuseles-arrow next"><i class="fas fa-caret-right"></i></div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-</div>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-12 mt-5 text-center footer">
@@ -607,10 +607,12 @@
 		</div>
 	</div>
 </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/slick/slick.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </body>
 </html>

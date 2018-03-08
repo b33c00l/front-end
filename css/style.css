@@ -23,6 +23,7 @@ a:hover {
 	color:red;
 }
 
+
 .page-link {
     color: #000000;
 }
@@ -43,16 +44,21 @@ a:hover {
 }
 
 .top-bar li {
-	float: left;
 	list-style-type: none;
 	margin-left: 15px;
 	margin-right: 15px;
+	float: right;
 }
 
 .top-bar ul {
-	float: right;
+	display:block;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	width: 100%;
+}
+
+.top-bar a {
+	color: white;
 }
 
 .top-contacts {
@@ -62,18 +68,20 @@ a:hover {
 
 .logo {
 	width:30%;
-	float: left;
+}
+
+.cart-menu-price {
+font-size: 20px;
 }
 
 .nav {
-	width: 50%;
-	float: left;
+	width:50%;
 	font-size: 16px;
-	line-height: 85px;
+	line-height: 20px;
 }
 
 .nav li {
-	float: left;
+	float: right;
 	list-style-type: none;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -97,8 +105,13 @@ a:hover {
 }
 
 .cart-menu {
-	font-size: 50px;
-	text-align: right;
+	font-size: 30px;
+	text-align: center;
+	width:20%;
+}
+
+.cart-menu-icon {
+	line-height: 85px;
 }
 
 .slider {
@@ -290,5 +303,61 @@ img#popular {
 
 div#categories {
 	margin-top: 30px;
+
+}
+
+
+/*
+MOBILE
+*/
+
+
+@media only screen and (max-width: 700px) {
+.top-bar ul {
+	margin: 0;
+    padding: 0;
+}
+
+.logo {
+	width:50%;
+}
+
+.cart-menu {
+	width: 20%;
+}
+
+.nav {
+	width:30%;
+	line-height: 20px;
+
+}
+
+.navbar {
+    padding: 0px 0px;
+}
+
+.cart-menu-price {
+	display: none;
+}
+
+.slider {
+    height: 150px;
+}
+
+.form-inline {
+	width: 100% !important;
+}
+
+.search-inputas {
+    width: 60% !important;
+}
+
+#sidebar {
+	display: none;
+}
+
+.karuseles-arrow {
+	font-size: 25px;
+}
 
 }

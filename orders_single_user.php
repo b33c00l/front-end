@@ -181,9 +181,9 @@
 								<td class="total"></td>
 								<td class="total"></td>
 								<td class="total"></td>
-								<td class="total"></td>
 								<td class="total" scope="Total"><b>Total</b></td>
 								<td data-label="Total">1235,89</td>
+								<td data-label="Total quantity">120</td>
 								<td class="total"></td>
 							</tr>
 						</tbody>

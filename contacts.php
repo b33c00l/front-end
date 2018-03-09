@@ -15,43 +15,23 @@
 				<h4>Contacts</h4>
 			</div>
 			<div class="row">
-				
+				<div class="col-md-6 contacts">
+					<ul class="list-group">
+						<li class="list-group-item">Gamestar Holding OÜ<span></span></li>
+						<li class="list-group-item">Mustamäe tee 44, c-korpus <span></span></li>
+						<li class="list-group-item">Tallinn 10621 <span></span></li>
+						<li class="list-group-item"><span><i class="fas fa-phone-square"></i></span> +372 5307 6779</li>
+						<li class="list-group-item"><span><i class="fas fa-envelope"></i></span> info@gamestar.ee</li>
+						<li class="list-group-item">Open M-F 9-17 <span></span></li>
+						<li class="list-group-item">Reg number: 11741610 <span></span></li>
+						<li class="list-group-item">VAT number: EE101338914 <span></span></li>
+						<li class="list-group-item"><span><i class="fas fa-university"></i></span> EE812200221048420120 Swedbank</li>
+						<li class="list-group-item"><span><i class="fas fa-university"></i></span> EE971010220108789019 SEB</li>
+					</ul>
+				</div>
 				<div class="col-md-6">
-					<div>
-						<p>Gamestar Holding OÜ</p>
-					</div>
-					<div>
-						<p>Mustamäe tee 44, c-korpus</p>
-					</div>
-					<div>
-						<p>Tallinn 10621</p>
-					</div>
-					<div>
-						<p style="font-size: 20px;">Telefon: +372 5307 6779<i class="fas fa-phone"></i></p>
-					</div>
-					<div>
-						<p>info@gamestar.ee</p>
-					</div>
-					<div>
-						<p>Oleme avatud E-R 9-17</p>
-					</div>
-					<div>
-						<p>Reg nr: 11741610</p>
-					</div>
-					<div>
-						<p>VAT nr: EE101338914</p>
-					</div>
-					<div>
-						<p>Konto nr: EE812200221048420120 Swedbank</p>
-					</div>
-					<div>
-						<p>Konto nr: EE971010220108789019 SEB</p>
-					</div>
-				</div>		
-			
-			<div class="col-md-6">
-				<img class="map" src="images/map.png">
-			</div>
+					<img class="map" src="images/map.png">
+				</div>
 			</div>
 			
 		</div>

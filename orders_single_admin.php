@@ -127,7 +127,16 @@
 									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
-							
+							<tr>
+								<td class="total"></td>
+								<td class="total"></td>
+								<td class="total"></td>
+								<td class="total"></td>
+								<td class="total"></td>
+								<td class="total" scope="Total"><b>Total</b></td>
+								<td data-label="Total">1235,89</td>
+								<td class="total"></td>
+							</tr>
 						</tbody>
 					</table>
 				</div>

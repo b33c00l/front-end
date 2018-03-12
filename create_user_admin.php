@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
 		<title>Create a user</title>
 	</head>
 	<body>
@@ -61,6 +62,14 @@
 									<div class="col inputGroupContainer">
 										<div class="input-group">
 											<input  name="payment_terms" placeholder="Payment terms" class="form-control"  type="text">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col control-label">Country</label>
+									<div class="col inputGroupContainer">
+										<div class="input-group">
+											<input  name="country" placeholder="Country" class="form-control"  type="text">
 										</div>
 									</div>
 								</div>

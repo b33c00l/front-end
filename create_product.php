@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
 		<title>Create product</title>
 	</head>
 	<body>
@@ -138,14 +139,14 @@
 									<label class="col control-label">Synapsis</label>
 									<div class="col inputGroupContainer">
 										<div class="input-group">
-											<textarea class="form-control" name="comment" placeholder="Synapsis" rows="6"></textarea>
+											<textarea class="form-control" name="comment" placeholder="Synapsis" rows="8"></textarea>
 										</div>
 									</div>
 								</div>
-								<div class="form-group">
-									<div class="col">
-										<button type="submit" class="btn btn-danger btn-block" >Create</button>
-									</div>
+							</div>
+							<div class="col-12 form-group">
+								<div class="col">
+									<button type="submit" class="btn btn-danger btn-block" >Create</button>
 								</div>
 							</div>
 						</div>

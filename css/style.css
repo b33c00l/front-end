@@ -305,6 +305,17 @@ div#categories {
     margin-top: 30px;
 }
 
+/*
+CONTACTS
+*/
+
+.contacts li {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom:10px;
+    border-bottom: 1px solid red;
+}
+
 
 /*
 MOBILE
@@ -464,7 +475,3 @@ img.map {
     width: 100%;
 }
 
-div.contacts {
-    font-size: 16px;
-    border-bottom: 1px solid red;
-}

@@ -95,7 +95,7 @@
 									<label class="col control-label">Company address</label>
 									<div class="col inputGroupContainer">
 										<div class="input-group">
-											<textarea class="form-control" name="company_address" placeholder="Company address" rows="5"></textarea>
+											<textarea class="form-control" name="company_address" placeholder="Company address" rows="6"></textarea>
 										</div>
 									</div>
 								</div>
@@ -103,7 +103,7 @@
 									<label class="col control-label">Shipping address</label>
 									<div class="col inputGroupContainer">
 										<div class="input-group">
-											<textarea class="form-control" name="shipping_address" placeholder="Shipping address" rows="5"></textarea>
+											<textarea class="form-control" name="shipping_address" placeholder="Shipping address" rows="6"></textarea>
 										</div>
 									</div>
 								</div>

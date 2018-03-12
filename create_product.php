@@ -47,7 +47,15 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col control-label">Select platform</label>
+									<label class="col control-label">EAN</label>
+									<div class="col inputGroupContainer">
+										<div class="input-group">
+											<input  name="ean" placeholder="EAN" class="form-control"  type="text">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col control-label">Select a platform</label>
 									<div class="col selectContainer">
 										<div class="input-group">
 											<select name="select platform" class="form-control selectpicker" >
@@ -62,7 +70,22 @@
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col control-label">Select publisher</label>
+									<label class="col control-label">Select a category</label>
+									<div class="col selectContainer">
+										<div class="input-group">
+											<select name="select platform" class="form-control selectpicker" >
+												<option value=" " ></option>
+												<option value="">Action</option>}
+												<option value="">Horror</option>}
+												<option value="">FPS</option>}
+												<option value="">Strategy</option>}
+												option
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col control-label">Select a publisher</label>
 									<div class="col selectContainer">
 										<div class="input-group">
 											<select name="select platform" class="form-control selectpicker" >
@@ -76,15 +99,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="form-group">
-									<label class="col control-label">EAN</label>
-									<div class="col inputGroupContainer">
-										<div class="input-group">
-											<input  name="ean" placeholder="EAN" class="form-control"  type="text">
-										</div>
-									</div>
-								</div>
-								</div>
+							</div>
 							<div class="col-md-6">
 								<div class="form-group">
 									<label class="col control-label">Release date</label>
@@ -94,7 +109,7 @@
 										</div>
 									</div>
 								</div>
-							
+								
 								<div class="form-group">
 									<label class="col control-label">PEGI</label>
 									<div class="col inputGroupContainer">
@@ -123,12 +138,11 @@
 									<label class="col control-label">Synapsis</label>
 									<div class="col inputGroupContainer">
 										<div class="input-group">
-											<textarea class="form-control" name="comment" placeholder="Synapsis" rows="5"></textarea>
+											<textarea class="form-control" name="comment" placeholder="Synapsis" rows="6"></textarea>
 										</div>
 									</div>
 								</div>
 								<div class="form-group">
-									<label class="col control-label"></label>
 									<div class="col">
 										<button type="submit" class="btn btn-danger btn-block" >Create</button>
 									</div>

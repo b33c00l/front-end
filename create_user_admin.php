@@ -92,10 +92,18 @@
 									</div>
 								</div>
 								<div class="form-group">
+									<label class="col control-label">Price coefficient</label>
+									<div class="col inputGroupContainer">
+										<div class="input-group">
+											<input  name="price_coefficient" placeholder="Price coefficient" class="form-control"  type="text">
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
 									<label class="col control-label">Company address</label>
 									<div class="col inputGroupContainer">
 										<div class="input-group">
-											<textarea class="form-control" name="company_address" placeholder="Company address" rows="6"></textarea>
+											<textarea class="form-control" name="company_address" placeholder="Company address" rows="4"></textarea>
 										</div>
 									</div>
 								</div>
@@ -103,7 +111,7 @@
 									<label class="col control-label">Shipping address</label>
 									<div class="col inputGroupContainer">
 										<div class="input-group">
-											<textarea class="form-control" name="shipping_address" placeholder="Shipping address" rows="6"></textarea>
+											<textarea class="form-control" name="shipping_address" placeholder="Shipping address" rows="5"></textarea>
 										</div>
 									</div>
 								</div>

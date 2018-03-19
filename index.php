@@ -4,7 +4,7 @@
 	<title>Index</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href= "css/style.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
@@ -27,11 +27,10 @@
 			<div class="logo">
 				<img src="images/logo.png">
 			</div>
-			<div class="cart-menu">
-				<span class="cart-menu-icon">
+			<div class="cart-menu-mobile">
+				<span class="cart-menu-icon-mobile">
 					<i class="fas fa-cart-arrow-down"></i>
 				</span>
-				<span class="cart-menu-price">€200</span>
 			</div>
 			<div class="nav d-flex justify-content-center">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -41,20 +40,29 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+								<a class="nav-link btn btn-outline-danger" href="http://localhost/voldemaras/laravel-front-end/front-end/">Home <span class="sr-only">(current)</span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Order</a>
+								<a class="nav-link btn btn-danger" href="#">Order</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Profile</a>
+								<a class="nav-link btn btn-danger" href="#">Profile</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">Contact</a>
+								<a class="nav-link btn btn-danger" href="#">Contact</a>
 							</li>
 						</ul>
 					</div>
 				</nav>
+			</div>
+			<div class="cart-menu">
+				<span class="cart-menu-inside">
+					<span class="cart-menu-icon">
+						<i class="fas fa-cart-arrow-down"></i>
+					</span>
+					<span class="cart-menu-price">Items: 0</span>
+					<span class="cart-menu-price">€200</span>
+				</span>
 			</div>
 		</div>
 		<!-- Slider -->
@@ -173,380 +181,137 @@
 			<!-- Table filters -->
 			<div class="col-10">
 				<div id="radioboxes" class="row justify-content-around">
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-						<label class="form-check-label" for="defaultCheck1">
-							Show Pre-orders
-						</label>
+					<div class="col-12">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">
+								Show Pre-orders
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">
+								Show Back-orders
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+							<label class="form-check-label" for="defaultCheck1">
+								Show Packshots
+							</label>
+						</div>
 					</div>
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-						<label class="form-check-label" for="defaultCheck1">
-							Show Back-orders
-						</label>
+					<!-- Product table -->
+					<div class="col-md-12 table-responsive">
+						<table class="table table-sm">
+							<thead class="thead-light">
+								<tr>
+									<th scope="col">EAN:</th>
+									<th scope="col">Name:</th>
+									<th scope="col">Release Date:</th>
+									<th scope="col">Publisher:</th>
+									<th scope="col">Stock:</th>
+									<th scope="col">Price:</th>
+									<th scope="col">Amount</th>
+									<th scope="col"></th>
+									<th scope="col"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td Data-label="EAN:" class="align-middle">3307212280150</td>
+									<td Data-label="Name:" class="align-middle">XONE Far Cry 4</td>
+									<td Data-label="Release date:" class="align-middle">2017-12-05</td>
+									<td Data-label="Publisher:" class="align-middle">Ubisoft</td>
+									<td Data-label="Stock:" class="align-middle">123</td>
+									<td Data-label="Price:" class="align-middle">9,63</td>
+									<td Data-label="Amount:" class="align-middle">
+										<input class="input" type="number" name="amount">
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="btn btn-dark">To cart</div>
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="packshot">
+											<img src="images/fc4.jpg">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td Data-label="EAN:" class="align-middle">3307212280150</td>
+									<td Data-label="Name:" class="align-middle">XONE Far Cry 4</td>
+									<td Data-label="Release date:" class="align-middle">2017-12-05</td>
+									<td Data-label="Publisher:" class="align-middle">Ubisoft</td>
+									<td Data-label="Stock:" class="align-middle">123</td>
+									<td Data-label="Price:" class="align-middle">9,63</td>
+									<td Data-label="Amount:" class="align-middle">
+										<input class="input" type="number" name="amount">
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="btn btn-dark">To cart</div>
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="packshot">
+											<img src="images/fc4.jpg">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td Data-label="EAN:" class="align-middle">3307212280150</td>
+									<td Data-label="Name:" class="align-middle">XONE Far Cry 4</td>
+									<td Data-label="Release date:" class="align-middle">2017-12-05</td>
+									<td Data-label="Publisher:" class="align-middle">Ubisoft</td>
+									<td Data-label="Stock:" class="align-middle">123</td>
+									<td Data-label="Price:" class="align-middle">9,63</td>
+									<td Data-label="Amount:" class="align-middle">
+										<input class="input" type="number" name="amount">
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="btn btn-dark">To cart</div>
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="packshot">
+											<img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/46013_farcry5_keyart_1920x950.jpg">
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td Data-label="EAN:" class="align-middle">3307212280150</td>
+									<td Data-label="Name:" class="align-middle">XONE Far Cry 4</td>
+									<td Data-label="Release date:" class="align-middle">2017-12-05</td>
+									<td Data-label="Publisher:" class="align-middle">Ubisoft</td>
+									<td Data-label="Stock:" class="align-middle">123</td>
+									<td Data-label="Price:" class="align-middle">9,63</td>
+									<td Data-label="Amount:" class="align-middle">
+										<input class="input" type="number" name="amount">
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="btn btn-dark">To cart</div>
+									</td>
+									<td class="align-middle product-image-mobile-center">
+										<div class="packshot">
+											<img src="images/fc4.jpg">
+										</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-						<label class="form-check-label" for="defaultCheck1">
-							Show Packshots
-						</label>
+					<div id="pagination" class="row justify-content-center">
+						<nav aria-label="Page navigation example">
+							<ul class="pagination justify-content-center">
+								<li class="page-item disabled">
+									<a class="page-link" href="#" tabindex="-1">Previous</a>
+								</li>
+								<li class="page-item"><a class="page-link" href="#">1</a></li>
+								<li class="page-item"><a class="page-link" href="#">2</a></li>
+								<li class="page-item"><a class="page-link" href="#">3</a></li>
+								<li class="page-item">
+									<a class="page-link" href="#">Next</a>
+								</li>
+							</ul>
+						</nav>
 					</div>
-				</div>
-				<!-- Product table -->
-				<div class="col-md-12 table-responsive">
-					<table class="table table-sm">
-						<thead class="thead-light">
-							<tr>
-								<th scope="col">EAN:</th>
-								<th scope="col">Name:</th>
-								<th scope="col">Release Date:</th>
-								<th scope="col">Publisher:</th>
-								<th scope="col">Stock:</th>
-								<th scope="col">Price:</th>
-								<th scope="col">Amount</th>
-								<th scope="col"></th>
-								<th scope="col"></th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>							<tr>
-								<td class="align-middle">3307212280150</td>
-								<td class="align-middle">XONE Far Cry 4</td>
-								<td class="align-middle">2017-12-05</td>
-								<td class="align-middle">Ubisoft</td>
-								<td class="align-middle">123</td>
-								<td class="align-middle">9,63</td>
-								<td class="align-middle">
-									<input style="width: 50px" type="number" name="amount">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark">To cart</div>
-								</td>
-								<td class="align-middle">
-									<img class="packshot" src="images/fc4.jpg">
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div id="pagination" class="row justify-content-center">
-					<nav aria-label="Page navigation example">
-						<ul class="pagination justify-content-center">
-							<li class="page-item disabled">
-								<a class="page-link" href="#" tabindex="-1">Previous</a>
-							</li>
-							<li class="page-item"><a class="page-link" href="#">1</a></li>
-							<li class="page-item"><a class="page-link" href="#">2</a></li>
-							<li class="page-item"><a class="page-link" href="#">3</a></li>
-							<li class="page-item">
-								<a class="page-link" href="#">Next</a>
-							</li>
-						</ul>
-					</nav>
 				</div>
 			</div>
 		</div>

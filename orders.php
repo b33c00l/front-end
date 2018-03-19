@@ -55,82 +55,61 @@
 								<th scope="col">Status:</th>
 								<th scope="col">Type:</th>
 								<th scope="col">Invoice:</th>
-								<th scope="col"></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td data-label="Order:" class="align-middle">1234456</td>
+								<td data-label="Order:" class="align-middle"><a href="#">1234456</a></td>
 								<td data-label="Date:" class="align-middle">2017-12-05</td>
 								<td data-label="User name:" class="align-middle">Topo Centras</td>
 								<td data-label="Status:" class="align-middle">Confirmed</td>
 								<td data-label="Type:" class="align-middle">Pre-order</td>
 								<td data-label="Invoice:" class="align-middle">
 									<img width="20px" class="figure-img" src="images/pdf.png">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark btn-sm">Edit</div>
-									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
 							<tr>
-								<td data-label="Order:" class="align-middle">1234456</td>
+								<td data-label="Order:" class="align-middle"><a href="#">1234456</a></td>
 								<td data-label="Date:" class="align-middle">2017-12-05</td>
 								<td data-label="User name:" class="align-middle">Topo Centras</td>
 								<td data-label="Status:" class="align-middle">Confirmed</td>
 								<td data-label="Type:" class="align-middle">Pre-order</td>
 								<td data-label="Invoice:" class="align-middle">
 									<img width="20px" class="figure-img" src="images/pdf.png">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark btn-sm">Edit</div>
-									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
 							<tr>
-								<td data-label="Order:" class="align-middle">1234456</td>
+								<td data-label="Order:" class="align-middle"><a href="#">1234456</a></td>
 								<td data-label="Date:" class="align-middle">2017-12-05</td>
 								<td data-label="User name:" class="align-middle">Topo Centras</td>
 								<td data-label="Status:" class="align-middle">Confirmed</td>
 								<td data-label="Type:" class="align-middle">Pre-order</td>
 								<td data-label="Invoice:" class="align-middle">
 									<img width="20px" class="figure-img" src="images/pdf.png">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark btn-sm">Edit</div>
-									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
 							<tr>
-								<td data-label="Order:" class="align-middle">1234456</td>
+								<td data-label="Order:" class="align-middle"><a href="#">1234456</a></td>
 								<td data-label="Date:" class="align-middle">2017-12-05</td>
 								<td data-label="User name:" class="align-middle">Topo Centras</td>
 								<td data-label="Status:" class="align-middle">Confirmed</td>
 								<td data-label="Type:" class="align-middle">Pre-order</td>
 								<td data-label="Invoice:" class="align-middle">
 									<img width="20px" class="figure-img" src="images/pdf.png">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark btn-sm">Edit</div>
-									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
 							<tr>
-								<td data-label="Order:" class="align-middle">1234456</td>
+								<td data-label="Order:" class="align-middle"><a href="#">1234456</a></td>
 								<td data-label="Date:" class="align-middle">2017-12-05</td>
 								<td data-label="User name:" class="align-middle">Topo Centras</td>
 								<td data-label="Status:" class="align-middle">Confirmed</td>
 								<td data-label="Type:" class="align-middle">Pre-order</td>
 								<td data-label="Invoice:" class="align-middle">
 									<img width="20px" class="figure-img" src="images/pdf.png">
-								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark btn-sm">Edit</div>
-									<div class="btn btn-danger btn-sm">Delete</div>
 								</td>
 							</tr>
 							<tr>
-								<td data-label="Order:" class="align-middle">1234456</td>
+								<td data-label="Order:" class="align-middle"><a href="#">1234456</a></td>
 								<td data-label="Date:" class="align-middle">2017-12-05</td>
 								<td data-label="User name:" class="align-middle">Topo Centras</td>
 								<td data-label="Status:" class="align-middle">Confirmed</td>
@@ -138,12 +117,17 @@
 								<td data-label="Invoice:" class="align-middle">
 									<img width="20px" class="figure-img" src="images/pdf.png">
 								</td>
-								<td class="align-middle">
-									<div class="btn btn-dark btn-sm">Edit</div>
-									<div class="btn btn-danger btn-sm">Delete</div>
-								</td>
 							</tr>
-							
+							<tr>
+								<td data-label="Order:" class="align-middle"><a href="#">1234456</a></td>
+								<td data-label="Date:" class="align-middle">2017-12-05</td>
+								<td data-label="User name:" class="align-middle">Topo Centras</td>
+								<td data-label="Status:" class="align-middle">Confirmed</td>
+								<td data-label="Type:" class="align-middle">Pre-order</td>
+								<td data-label="Invoice:" class="align-middle">
+									<img width="20px" class="figure-img" src="images/pdf.png">
+								</td>
+							</tr>		
 						</tbody>
 					</table>
 				</div>
